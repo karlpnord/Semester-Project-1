@@ -23,6 +23,10 @@ header,
    margin: 0 auto;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 /* Utiliy classes */
 .line-break::before {
    content: "\a";
