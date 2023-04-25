@@ -1,0 +1,102 @@
+@import url(/css/variables.css);
+
+/* Reset */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* General styling */
+body {
+   font-family: var(--ff-body);
+}
+
+/* Utiliy classes */
+.line-break::before {
+   content: "\a";
+   white-space: pre;
+}
+
+.flex-row-static {
+   display: flex;
+}
+
+/* Header */
+header {
+   justify-content: space-between;
+   align-items: center;
+   width: 90%;
+   max-width: 1600px;
+   margin: 0 auto;
+   padding: 1.25em 0;
+   position: relative;
+}
+
+.logo img {
+   width: 70px;
+}
+
+.logo {
+   align-items: center;
+   gap: 0.4em;
+   font-family: var(--ff-logo);
+}
+
+nav,
+#menu-checkbox {
+   display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+   display: initial;
+}
+
+nav {
+   position: absolute;
+   z-index: 999;
+   top: 100px;
+   right: 0;
+   width: 50%;
+   border: 1px solid #000;
+   border-radius: 0.35em;
+   text-align: center;
+   padding: 1em;
+   background: #fff;
+}
+
+nav a {
+   font-family: var(--ff-cta);
+   font-size: 1.5rem;
+   color: #000;
+   display: block;
+   padding: 0.5em 0;
+   text-decoration: none;
+}
+
+header label {
+   font-size: 2.25em;
+}
+
+/* Responsive */
+
+@media (min-width: 950px) {
+   header label {
+      display: none;
+   }
+
+   nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 5em;
+      position: static;
+      border-radius: none;
+      border: none;
+      flex: 1;
+   }
+
+   nav a {
+      display: inline-block;
+      font-size: 2rem;
+   }
+}
