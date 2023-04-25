@@ -1,9 +1,6 @@
-.section-images img {
-   display: block;
-   width: 100%;
-}
-
-.exhibitions img {
+.section-images img,
+.exhibitions img,
+.events img {
    display: block;
    width: 100%;
 }
