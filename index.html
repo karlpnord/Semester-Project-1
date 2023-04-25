@@ -12,7 +12,7 @@
 </head>
 <body>
    
-   <header class="flex-row-static">
+   <header class="flex-row-static" id="header">
       <div class="logo flex-row-static">
          <img src="/images/logo.png" alt="desc">
          <h2>Community<span class="line-break">Science Museum</span></h2>
@@ -37,7 +37,7 @@
          <article>
             <h1>Explore Together</h1>
             <p>Come join us at the Community Science Museum where we're committed to making science accessible to all.</p>
-            <a href="#">
+            <a href="#opening-hours" class="on-site-nav">
                <p>Opening Hours</p>
                <i class="fa-solid fa-arrow-down"></i>
             </a>
@@ -110,19 +110,19 @@
       <section class="footer-item footer-content flex-columns-to-rows">
          <article class="footer-content__article flex-column-static footer-content__item">
             <h2>We look forward to seeing you at the new community science museum!</h2>
-            <p>The entrance hall is free for all. There are guided tours of the museum that leave every hour. These tours are 70 NOK per person.</p>
+            <p><span class="text-purple bold-text">The entrance hall is free for all.</span> There are guided tours of the museum that leave every hour. These tours are <span class="bold-text">70 NOK</span> per person.</p>
             <p>If you would like to organise a guided tour for your group of 6 or more people, please contact us by filling in the form.</p>
          </article>
          <div class="footer-content__info flex-column-static footer-content__item">
             <section>
                <h3>Location</h3>
-               <p>Ola Nordmannsgate 2, 0485 Oslo</p>
+               <p>Ola Nordmannsgate 2, <span class="line-break">0485 Oslo</span></p>
             </section>
             <section>
                <h3>Call us</h3>
                <p>+47 999 99 999</p>
             </section>
-            <section>
+            <section id="opening-hours">
                <h3>Opening Hours</h3>
                <p>Mon: Closed</p>
                <p>Tue-Thu: 10:00 - 16:00</p>
@@ -131,7 +131,7 @@
                <p>Sun: 09:00 - 13:00</p>
             </section>
             <div>
-               <a href="#">
+               <a href="#header" class="on-site-nav">
                   <p>Back to top</p>
                   <i class="fa-solid fa-arrow-up"></i>
                </a>
