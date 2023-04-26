@@ -9,7 +9,8 @@
 /* Typography */
 .hero h1,
 .container h2,
-.events h3 {
+.events h3,
+.banner-background h2 {
    font-family: var(--ff-sct-titles);
 }
 
