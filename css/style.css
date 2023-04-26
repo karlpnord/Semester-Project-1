@@ -16,10 +16,9 @@ body p {
    font-size: 18px;
 }
 
-header,
-.container {
+header {
    width: 90%;
-   max-width: 1600px;
+   max-width: 31.25em;
    margin: 0 auto;
 }
 
@@ -51,6 +50,10 @@ html {
    font-weight: 600;
 }
 
+.flex-break-column {
+   display: none;
+}
+
 /* CTA's */
 .cta {
    display: block;
@@ -66,6 +69,10 @@ html {
    width: 50%;
    max-width: calc(225px * 0.9);
    background: #fff;
+}
+
+.form-button:hover {
+   background: rgb(219, 219, 219);
 }
 
 .on-site-nav {
@@ -105,7 +112,9 @@ textarea:focus {
 }
 
 label {
-   margin-bottom: -10px !important;
+   margin-bottom: -12px !important;
+   margin-left: 2px;
+   font-size: 0.75rem;
 }
 
 /* Header */
@@ -183,10 +192,7 @@ footer {
    max-width: calc(450px * 0.9);
 }
 
-.footer-content__item {
-   gap: 1em;
-}
-
+.footer-content__item,
 .footer-content__form {
    gap: 1em;
 }
@@ -223,6 +229,10 @@ footer {
 /* Responsive */
 
 @media (min-width: 950px) {
+   header {
+      max-width: 1600px;
+   }
+   
    header label {
       display: none;
    }
@@ -267,5 +277,11 @@ footer {
 
    .footer-content__article {
       padding-right: 2em;
+   }
+
+   .flex-break-column {
+      display: initial;
+      flex-basis: 100%;
+      height: 0;
    }
 }

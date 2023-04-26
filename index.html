@@ -28,13 +28,13 @@
       
    </header>
 
-   <main>
+   <main class="flex-column-static">
 
-      <section class="hero container">
+      <section class="hero container flex-columns-to-rows">
          <div class="section-images">
             <img src="/images/hero.jpg" alt="desc">
          </div>
-         <article>
+         <article class="flex-column-static">
             <h1>Explore Together</h1>
             <p>Come join us at the Community Science Museum where we're committed to making science accessible to all.</p>
             <a href="#opening-hours" class="on-site-nav">
@@ -44,57 +44,59 @@
          </article>
       </section>
 
-      <section class="container">
+      <section class="container ysc-club flex-columns-to-rows">
          <div class="section-images">
             <img src="/images/young-stars-club.jpg" alt="desc">
          </div>
-         <article>
+         <article class="flex-column-static">
             <h2>Young Stars Club</h2>
             <p>We have the Young Stars Club which meets once a week on a Saturday between 10:00 and 13:00 where you'll get to explore and experiment with our team of experts.</p>
             <p>During the school holidays we run holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message. </p>
          </article>
-         <button class="cta">Join Holiday Club! </button>
+         <div class="flex-break-column"></div>
+         <button class="cta main-cta">Join Holiday Club! </button>
       </section>
 
       <section class="container banner-background">
          <h2>Book a Guided tour with us!</h2>
-         <button class="cta">Book Tour</button>
+         <button class="cta main-cta">Book Tour</button>
       </section>
 
-      <section class="container exhibitions">
+      <section class="container exhibitions flex-columns-to-rows">
          <h2>On Display</h2>
-         <div>
+         <div class="exhibitions__item">
             <img src="/images/exhibitions-image1.png" alt="desc">
             <h3>Biology and Medicine</h3>
          </div>
-         <div>
+         <div class="exhibitions__item">
             <img src="/images/exhibitions-image2.png" alt="desc">
             <h3>Cosmology</h3>
          </div>
-         <div>
+         <div class="exhibitions__item">
             <img src="/images/exhibitions-image3.png" alt="desc">
             <h3>Evolution</h3>
          </div>
-         <button class="cta">see all exhibitions</button>
+         <div class="flex-break-column"></div>
+         <button class="cta main-cta">view all exhibitions</button>
       </section>
 
-      <section class="container events">
+      <section class="container events flex-columns-to-rows">
          <h2>Upcoming Events</h2>
-         <div>
+         <div class="events__item">
             <img src="/images/events-image1.png" alt="desc">
             <article>
                <h3>Visiting Professor of Aeronautics</h3>
                <p>24 April 2023 : 16:00 - 18:00</p>
             </article>
          </div>
-         <div>
+         <div class="events__item">
             <img src="/images/events-image2.png" alt="desc">
             <article>
                <h3>Night in the Museum</h3>
                <p>27 April 2023 : 23:00 - 08:00</p>
             </article>
          </div>
-         <div>
+         <div class="events__item">
             <img src="/images/events-image3.png" alt="desc">
             <article>
                <h3>Energetica Exhibition on Loan</h3>
@@ -105,7 +107,7 @@
 
    </main>
 
-   <footer class="flex-column-static">
+   <footer class="flex-column-static" id="opening-hours">
 
       <section class="footer-item footer-content flex-columns-to-rows">
          <article class="footer-content__article flex-column-static footer-content__item">
@@ -122,7 +124,7 @@
                <h3>Call us</h3>
                <p>+47 999 99 999</p>
             </section>
-            <section id="opening-hours">
+            <section>
                <h3>Opening Hours</h3>
                <p>Mon: Closed</p>
                <p>Tue-Thu: 10:00 - 16:00</p>

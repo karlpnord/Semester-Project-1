@@ -1,6 +1,138 @@
+/* General styling */
 .section-images img,
 .exhibitions img,
 .events img {
    display: block;
    width: 100%;
+}
+
+/* Typography */
+.hero h1,
+.container h2,
+.events h3 {
+   font-family: var(--ff-sct-titles);
+}
+
+.exhibitions h3 {
+   font-family: var(--ff-ondisplay-undertitles);
+}
+
+.hero h1 {
+   font-size: 2rem;
+}
+
+.container h2 {
+   font-size: 1.75rem;
+}
+
+.events h3,
+.exhibitions h3 {
+   font-size: 1.75rem;
+}
+
+/* Layout styling */
+main {
+   gap: 5em;
+   margin: 4em 0;
+}
+
+.container {
+   width: 90%;
+   
+   margin: 0 auto;
+}
+
+.hero,
+.ysc-club,
+.exhibitions,
+.events {
+   gap: 1em;
+   max-width: 31.25em;
+}
+
+.hero article {
+   gap: 0.35em;
+}
+
+.ysc-club {
+   gap: 2em;
+}
+
+.ysc-club article {
+   gap: 1em;
+}
+
+.exhibitions,
+.events {
+   gap: 2em;
+}
+
+/* Responsive */
+@media (min-width: 950px) {
+   /* General responsiveness and some typography*/
+   main p {
+      font-size: 20px;
+   }
+
+   .main-cta {
+      width: 30%;
+      padding: 1em 0;
+   }
+
+   .container h2 {
+      font-size: 2.5rem;
+   }
+
+   .container {
+      max-width: 1600px;
+   }
+
+   /* Hero section responsiveness */
+   .hero {
+      flex-direction: row-reverse;
+      align-items: center;
+   }
+
+   .hero > * {
+      flex: 1;
+   }
+
+   .hero h1 {
+      font-size: 3.5rem;
+   }
+
+   .hero p {
+      font-size: 24px;
+   }
+
+   /* YSC-Club section responsiveness */
+   .ysc-club {
+      flex-wrap: wrap;
+      align-items: center;
+      row-gap: 1em;
+      justify-content: center; 
+   }
+
+   .ysc-club .section-images,
+   .ysc-club article {
+      flex: 1;
+   }
+
+   /* Exhibitions and events section responsiveness */
+   .exhibitions,
+   .events {
+      flex-wrap: wrap;
+      row-gap: 0.75em;
+      justify-content: center;
+   }
+   
+   .exhibitions h2,
+   .events h2 {
+      flex-basis: 100%;
+   }
+   
+   .exhibitions__item,
+   .events__item {
+      flex: 1;
+   }
 }
