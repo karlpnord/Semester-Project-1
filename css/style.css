@@ -58,17 +58,27 @@ html {
 .cta {
    display: block;
    border: none;
-   padding: 0.5em 0;
+   padding: 0.25em 0;
    border-radius: 0.35em;
    font-family: var(--ff-cta);
-   font-size: 1.25rem;
-   color: #000;
+   font-size: 1.75rem;
+   color: #fff;
+   
+}
+
+.cta-purple {
+   background: #CB3CE2;
+}
+
+.cta-blue {
+   background: #3D72FA;
 }
 
 .form-button {
    width: 50%;
    max-width: calc(225px * 0.9);
    background: #fff;
+   color: #000;
 }
 
 .form-button:hover {
@@ -251,6 +261,14 @@ footer {
    nav a {
       display: inline-block;
       font-size: 2rem;
+   }
+
+   .highlighted {
+      background: #3D72FA;
+      padding: 0.25em 0.75em;
+      border-radius: 0.25rem;
+      color: #fff;
+      margin: auto;
    }
 
    .flex-columns-to-rows {
