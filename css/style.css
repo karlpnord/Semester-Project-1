@@ -43,7 +43,7 @@ html {
 }
 
 .text-purple {
-   color: #cb3ce2;
+   color: var(--clr-cta-purple);
 }
 
 .bold-text {
@@ -58,7 +58,8 @@ html {
 .cta {
    display: block;
    border: none;
-   padding: 0.25em 0;
+   padding: 0.25em 2em;
+   width: fit-content;
    border-radius: 0.35em;
    font-family: var(--ff-cta);
    font-size: 1.75rem;
@@ -67,11 +68,11 @@ html {
 }
 
 .cta-purple {
-   background: #CB3CE2;
+   background: var(--clr-cta-purple);
 }
 
 .cta-blue {
-   background: #3D72FA;
+   background: var(--clr-cta-blue);
 }
 
 .form-button {
@@ -91,12 +92,12 @@ html {
    align-items: center;
    text-decoration: none;
    width: fit-content;
-   color: #3d72fa;
+   color: var(--clr-cta-blue);
    font-weight: bold;
 }
 
 .on-site-nav:hover {
-   border-bottom: 1px solid #3d72fa;
+   border-bottom: 1px solid var(--clr-cta-blue);
 }
 
 /* Forms */
@@ -264,7 +265,7 @@ footer {
    }
 
    .highlighted {
-      background: #3D72FA;
+      background: var(--clr-cta-blue);
       padding: 0.25em 0.75em;
       border-radius: 0.25rem;
       color: #fff;
