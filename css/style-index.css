@@ -64,7 +64,7 @@ main {
 
 .exhibitions,
 .events {
-   gap: 2em;
+   gap: 3em;
 }
 
 .events__item article {
@@ -153,8 +153,9 @@ main {
       flex-wrap: wrap;
       column-gap: 0;
       justify-content: center;
-      box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.4);
-      padding: 3em; 
+      box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.15);
+      padding: 3em;
+      background-image: url(/images/paper_fibers.png);
    }
 
    .ysc-club .section-images,
