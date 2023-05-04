@@ -7,7 +7,7 @@
    <title>Community Science Museum | Homepage</title>
    <meta name="description" content="TBD">
    <link href="/css/style.css" rel="stylesheet">
-   <link href="/css/style-index.css" rel="stylesheet">
+   <link href="/css/style-getinvolved.css" rel="stylesheet">
    <script src="https://kit.fontawesome.com/801ba823f5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -20,8 +20,8 @@
       <input type="checkbox" id="menu-checkbox">
       <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
       <nav>
-         <a href="index.html">Home</a>
-         <a href="/html/ysc-club.html">YSC</a>
+         <a href="../index.html">Home</a>
+         <a href="ysc-club.html">YSC</a>
          <a href="#">Exhibitons</a>
          <a href="#" class="highlighted">Book Tour</a>
       </nav>
@@ -29,82 +29,49 @@
    </header>
 
    <main class="flex-column-static">
-
-      <section class="hero container flex-columns-to-rows">
-         <div class="section-images">
-            <img src="/images/hero.jpg" alt="desc">
-         </div>
-         <article class="flex-column-static">
-            <h1>Explore Together</h1>
-            <p class="p-inline-size">Come join us at the Community Science Museum where we're committed to making science accessible to all.</p>
-            <a href="#opening-hours" class="on-site-nav">
-               <p>Opening Hours</p>
-               <i class="fa-solid fa-arrow-down"></i>
-            </a>
-         </article>
-      </section>
-
-      <section class="container ysc-club flex-columns-to-rows">
-         <div class="section-images flex-row-static">
-            <img src="/images/young-stars-club.jpg" alt="desc">
-         </div>
-         <article class="flex-column-static">
-            <h2>Young Stars Club</h2>
-            <p>We have the Young Stars Club which meets once a week on a Saturday between 10:00 and 13:00 where you'll get to explore and experiment with our team of experts. To find out more about the young stars club and how you can join, send us a message.</p>
-            <button class="cta main-cta cta-purple">join now</button>
-         </article>
-      </section>
-
-      <section class="container exhibitions flex-columns-to-rows">
-         <h2>On Display</h2>
-         <div class="exhibitions__item">
-            <img src="/images/exhibitions-image1.png" alt="desc">
-            <h3>Biology and Medicine</h3>
-         </div>
-         <div class="exhibitions__item">
-            <img src="/images/exhibitions-image2.png" alt="desc">
-            <h3>Cosmology</h3>
-         </div>
-         <div class="exhibitions__item">
-            <img src="/images/exhibitions-image3.png" alt="desc">
-            <h3>Evolution</h3>
-         </div>
-         <div class="flex-break-column"></div>
-         <button class="cta main-cta cta-purple">view all exhibitions</button>
-      </section>
-
-      <div class="banner-background flex-column-static">
-         <section class="banner-content flex-column-static">
-            <h2>Book a Guided tour with us!</h2>
-            <button class="cta main-cta cta-blue">Book Tour</button>
+      <div class="container">
+         <section class="registration flex-column-static reg-item">
+            <h1>YSC Club Registration</h1>
+            <p>During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club, send us a message or contact us!</p>
+            <div class="flex-row-static reg-content__item">
+               <i class="fa-solid fa-phone"></i>
+               <p>+47 999 99 999</p>
+            </div>
+            <div class="flex-row-static reg-content__item">
+               <i class="fa-solid fa-envelope"></i>
+               <p>csm-oslo@gmail.com</p>
+            </div>
+            <div class="flex-row-static reg-content__item">
+               <i class="fa-solid fa-location-dot"></i>
+               <p>Ola Nordmannsgate 2,<span class="line-break"></span> 0485 Oslo</p>
+            </div>
          </section>
+         <form class="reg-item reg-personalinfo reg-form flex-column-static">
+            <label for="first-name">First name</label>
+            <input type="name" id="first-name" name="first-name">
+            <label for="last-name">Last name</label>
+            <input type="name" id="last-name" name="last-name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+         </form>
+         <form class="reg-item reg-birthdate reg-form flex-column-static">
+            <div class="flex-row-static reg-halfsize">
+               <div class="flex-column-static reg-halfsize__item">
+                  <label for="date">Date</label>
+                  <input type="tel" id="date" placeholder="DD" maxlength="2">
+               </div>
+               <div class="flex-column-static reg-halfsize__item">
+                  <label for="month">Month</label>
+                  <input type="text" id="month" placeholder="MM">
+               </div>   
+            </div>
+            <label for="year">Year</label>
+            <input type="tel" id="year" placeholder="YYYY" maxlength="4">
+         </form>
+         <div class="reg-item">
+            <button class="cta cta-blue">Join now</button>
+         </div>
       </div>
-
-      <section class="container events flex-columns-to-rows">
-         <h2>Upcoming Events</h2>
-         <div class="events__item">
-            <img src="/images/events-image1.png" alt="desc">
-            <article class="flex-column-static">
-               <h3>Visiting Professor of Aeronautics</h3>
-               <p>24 April 2023 : 16:00 - 18:00</p>
-            </article>
-         </div>
-         <div class="events__item">
-            <img src="/images/events-image3.png" alt="desc">
-            <article class="flex-column-static">
-               <h3>Energetica Exhibition on Loan</h3>
-               <p>26 April 2023 : 16:00 - 18:00</p>
-            </article>
-         </div>
-         <div class="events__item">
-            <img src="/images/events-image2.png" alt="desc">
-            <article class="flex-column-static">
-               <h3>Night in the Museum</h3>
-               <p>27 April 2023 : 23:00 - 08:00</p>
-            </article>
-         </div>
-      </section>
-
    </main>
 
    <footer class="flex-column-static" id="opening-hours">

@@ -1,0 +1,75 @@
+.container {
+   display: grid;
+   grid-template-rows: repeat(4, auto);
+   gap: 4em;
+   width: 100%;
+   margin-bottom: 6em;
+}
+
+.reg-item {
+   width: 90%;
+   max-width: 31.25em;
+   margin: 0 auto;
+   padding: 0 2em;
+}
+
+.registration {
+   background-image: url(../images/footer_lodyas.png);
+   color: #fff;
+   gap: 1.5em;
+   width: 100%;
+   padding: 5em 2em 5em 2em;
+}
+
+.registration h1 {
+   font-family: var(--ff-sct-titles);
+   font-size: 2rem;
+}
+
+.registration p {
+   font-size: 1rem;
+   line-height: 1.5;
+}
+
+.reg-content__item {
+   gap: 1em;
+}
+
+.reg-content__item p {
+   font-size: 0.85em;
+}
+
+.reg-content__item i {
+   font-size: 1.5rem;
+   width: 30px;
+}
+
+.reg-form {
+   gap: 2em;
+}
+
+.reg-form input {
+   border: none;
+   border-bottom: 1px solid #c4c4c4;
+}
+
+.reg-form input:focus {
+   border-bottom: 2px solid #000;
+}
+
+.reg-form label {
+   font-weight: 600;
+}
+
+.reg-halfsize__item {
+   width: 45%;
+   gap: 2em;
+}
+
+.reg-halfsize {
+   justify-content: space-between;
+}
+
+.reg-birthdate input::placeholder {
+   padding-left: 2px;
+}
