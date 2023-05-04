@@ -58,7 +58,7 @@ html {
    font-family: var(--ff-cta);
    font-size: 1.75rem;
    color: #fff;
-   
+   text-decoration: none;
 }
 
 .cta-purple {
@@ -260,7 +260,7 @@ footer {
 
    nav a {
       display: inline-block;
-      font-size: 2rem;
+      font-size: ;
    }
 
    .highlighted {
