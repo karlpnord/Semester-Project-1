@@ -47,7 +47,9 @@
                <p>Ola Nordmannsgate 2,<span class="line-break"></span> 0485 Oslo</p>
             </div>
          </section>
+         
          <form class="reg-item reg-personalinfo reg-form flex-column-static">
+            <h2>Personal Details</h2>
             <label for="first-name">First name</label>
             <input type="name" id="first-name" name="first-name">
             <label for="last-name">Last name</label>
@@ -55,24 +57,33 @@
             <label for="email">Email</label>
             <input type="email" id="email" name="email">
          </form>
-         <form class="reg-item reg-birthdate reg-form flex-column-static">
+         
+         <section class="reg-item reg-birthdate reg-form flex-column-static">
+            <h2>Date of Birth</h2>
             <div class="flex-row-static reg-halfsize">
-               <div class="flex-column-static reg-halfsize__item">
+               <form class="flex-column-static reg-halfsize__item">
                   <label for="date">Date</label>
                   <input type="tel" id="date" placeholder="DD" maxlength="2">
-               </div>
-               <div class="flex-column-static reg-halfsize__item">
+               </form>
+               <form class="flex-column-static reg-halfsize__item">
                   <label for="month">Month</label>
                   <input type="text" id="month" placeholder="MM">
-               </div>   
+               </form>   
             </div>
-            <label for="year">Year</label>
-            <input type="tel" id="year" placeholder="YYYY" maxlength="4">
-         </form>
+            <form class="flex-column-static reg-halfsize__item">
+               <label for="year">Year</label>
+               <input type="tel" id="year" placeholder="YYYY" maxlength="4">
+            </form>
+            
+         </section>
+         
          <div class="reg-item">
             <a href="ysc-club.html" class="cta cta-blue">Join now</a>
          </div>
+
+      
       </div>
+
    </main>
 
    <footer class="flex-column-static" id="opening-hours">

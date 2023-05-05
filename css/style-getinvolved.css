@@ -15,7 +15,7 @@
    background-image: url(../images/footer_lodyas.png);
    color: #fff;
    gap: 1.5em;
-   padding: 2em 1em;
+   padding: 2em;
    width: 100%;
    margin: 0 auto;
    justify-content: center;
@@ -67,7 +67,7 @@
 }
 
 .reg-halfsize__item {
-   max-width: 45%;
+   width: 45%;
    gap: 2em;
 }
 
@@ -84,4 +84,13 @@ input[type="email"],
 input[type="tel"],
 input[type="text"] {
    font-size: 16px;
+   padding-left: 2px;
+}
+
+h2 {
+   font-size: 1.25rem;
+}
+
+.reg-item .cta {
+   padding: 0.125em 0.75em;
 }
