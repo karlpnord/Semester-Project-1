@@ -1,7 +1,6 @@
 .container {
    gap: 4em;
    width: 100%;
-   margin-bottom: 6em;
    margin: 1em auto 6em;
 }
 
@@ -77,6 +76,7 @@
 
 .reg-birthdate input::placeholder {
    padding-left: 2px;
+   opacity: 0.5;
 }
 
 input[type="name"],
@@ -93,4 +93,40 @@ h2 {
 
 .reg-item .cta {
    padding: 0.125em 0.75em;
+}
+
+/* Responsive */
+@media (min-width: 950px) {
+   .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr auto;
+      max-width: 1600px;
+      width: 90%;
+      column-gap: 1em;
+   }
+
+   .registration {
+      grid-row: span 2;
+      min-height: 65vh;
+      justify-content: flex-start;
+      border-radius: 0.75rem;
+   }
+
+   .reg-item__cta {
+      grid-column: 3 / 4;
+   }
+
+   .reg-item__cta .cta {
+      float: right;
+      padding: 0.25em 1.5em;
+   }
+
+   .reg-item {
+      padding: 2em;
+   }
+
+   .test {
+      flex-wrap: wrap;
+   }
 }
