@@ -4,10 +4,10 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Community Science Museum | Homepage</title>
+   <title>Community Science Museum | Book Tour Guide</title>
    <meta name="description" content="TBD">
    <link href="/css/style.css" rel="stylesheet">
-   <link href="/css/style-ysc-club.css" rel="stylesheet">
+   <link href="/css/style-book-tour-guide.css" rel="stylesheet">
    <script src="https://kit.fontawesome.com/801ba823f5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -30,58 +30,56 @@
    </header>
 
    <main>
-      <div class="container flex-column-static">
-         <section class="registration reg-item flex-column-static">
-            <h1>YSC Club Registration</h1>
-            <p>During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club, send us a message or contact us!</p>
-            <div class="flex-row-static reg-content__item">
+      
+      <div class="grid-container">
+         <section class="info-section flex-column-static">
+            <h1>Book Tour Guide</h1>
+            <p>More than 6 people? Fill in the form below and get a tour guide when you visit the museum!</p>
+            <div class="flex-row-static info-section__item">
                <i class="fa-solid fa-phone"></i>
                <p>+47 999 99 999</p>
             </div>
-            <div class="flex-row-static reg-content__item">
+            <div class="flex-row-static info-section__item">
                <i class="fa-solid fa-envelope"></i>
                <p>csm-oslo@gmail.com</p>
             </div>
-            <div class="flex-row-static reg-content__item">
+            <div class="flex-row-static info-section__item">
                <i class="fa-solid fa-location-dot"></i>
                <p>Ola Nordmannsgate 2,<span class="line-break"></span> 0485 Oslo</p>
             </div>
          </section>
+   
+         <section class="personal-section">
+            <form class="form-style flex-column-static form-pinfo">
+               <h2>Personal Details</h2>
+               <label for="first-name">Name</label>
+               <input type="name" id="name" name="name">
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email">
+            </form>
+         </section>
          
-         <form class="reg-item reg-personalinfo reg-form flex-column-static form-style">
-            <h2>Personal Details</h2>
-            <label for="first-name">First name</label>
-            <input type="name" id="first-name" name="first-name">
-            <label for="last-name">Last name</label>
-            <input type="name" id="last-name" name="last-name">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-         </form>
-         
-         <section class="reg-item reg-birthdate reg-form flex-column-static">
-            <h2>Date of Birth</h2>
-            <div class="flex-row-static reg-halfsize test">
-               <form class="flex-column-static reg-halfsize__item form-style">
+         <section class="date-section">
+               <form class="form-style flex-column-static form-dinfo">
+                  <h2>Date of Tour Guide</h2>
                   <label for="date">Date</label>
                   <input type="tel" id="date" placeholder="DD" maxlength="2">
-               </form>
-               <form class="flex-column-static reg-halfsize__item form-style">
                   <label for="month">Month</label>
                   <input type="text" id="month" placeholder="January">
                </form>   
-            </div>
-            <form class="flex-column-static reg-halfsize__item form-style">
-               <label for="year">Year</label>
-               <input type="tel" id="year" placeholder="YYYY" maxlength="4">
+         </section>
+
+         <section class="message-section">
+            <form class="form-style flex-column-static form-minfo">
+               <h2>Additional Information</h2>
+               <label for="message">Anything else we should know, or special requests?</label>
+               <textarea type="text" id="message"></textarea>
             </form>
-            
          </section>
          
-         <div class="reg-item reg-item__cta">
-            <a href="ysc-club.html" class="cta cta-blue">Join now</a>
+         <div class="cta-section">
+            <a href="book-tour-guide.html" class="cta cta-blue form-cta">Book now</a>
          </div>
-
-      
       </div>
 
    </main>

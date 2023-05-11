@@ -1,7 +1,7 @@
 .container {
    gap: 4em;
    width: 100%;
-   margin: 1em auto 6em;
+   margin: 0 auto 6em;
 }
 
 .reg-item {
@@ -15,10 +15,10 @@
    color: #fff;
    gap: 1.5em;
    padding: 2em;
-   width: 100%;
+   width: 90%;
    margin: 0 auto;
    justify-content: center;
-   border-radius: 0.25rem;
+   border-radius: 1rem;
 }
 
 .registration > * {
@@ -50,41 +50,6 @@
 
 .reg-form {
    gap: 2em;
-}
-
-.reg-form input {
-   border: none;
-   border-bottom: 1px solid #c4c4c4;
-}
-
-.reg-form input:focus {
-   border-bottom: 2px solid #000;
-}
-
-.reg-form label {
-   font-weight: 600;
-}
-
-.reg-halfsize__item {
-   width: 45%;
-   gap: 2em;
-}
-
-.reg-halfsize {
-   justify-content: space-between;
-}
-
-.reg-birthdate input::placeholder {
-   padding-left: 2px;
-   opacity: 0.5;
-}
-
-input[type="name"],
-input[type="email"],
-input[type="tel"],
-input[type="text"] {
-   font-size: 16px;
-   padding-left: 2px;
 }
 
 h2 {
