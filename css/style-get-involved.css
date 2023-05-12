@@ -1,0 +1,75 @@
+.container {
+   width: 100%;
+   margin: 0 auto;
+}
+
+.heading-background {
+   background: #444;
+   background-blend-mode: multiply;
+   background-image: url(/images//getinvolved-background-mobile.png);
+   background-size: cover;
+   background-position: center top;
+   width: 100%;
+   height: 40vh;
+   justify-content: center;
+   text-align: center;
+   color: #fff;
+}
+
+.heading-title {
+   font-family: var(--ff-sct-titles);
+   padding: 0 1em;
+}
+
+.heading-title h1 {
+   font-size: 2rem;
+}
+
+.heading-title h2 {
+   font-size: 1.25rem;
+   font-weight: 300;
+}
+
+.container-content {
+   width: 90%;
+   max-width: 31.25em;
+   margin: 3em auto;
+   gap: 4em;
+}
+
+.container-content img {
+   width: 30%;
+   margin: 0 auto;
+}
+
+.container-content__item {
+   gap: 1em;
+   text-align: center;
+   border: 1px solid black;
+   padding: 1em 1em 1.5em;
+}
+
+@media (min-width: 750px) {
+   .heading-background {
+      background-image: url(/images/getinvolved-background-desktop.png);
+      height: 60vh;
+   }
+}
+
+@media (min-width: 950px) {
+   .container-content {
+      max-width: 1600px;
+      margin: 6em auto;
+   }
+
+   .container-content__item {
+      flex: 1;
+      padding: 2em;
+   }
+}
+
+@media (min-width: 1300px) {
+   .heading-background {
+      height: 70vh;
+   }
+}
