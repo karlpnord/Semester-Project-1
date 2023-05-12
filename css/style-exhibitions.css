@@ -2,11 +2,11 @@
    width: 90%;
    max-width: 31.25em;
    margin: 1em auto;
-   font-family: var(--ff-sct-titles);
 }
 
 .exhib-container h1 {
    font-size: 2.25rem;
+   font-family: var(--ff-sct-titles);
 }
 
 .grid-container {
@@ -17,17 +17,16 @@
 }
 
 .grid-item {
-   padding: 2em;
-   border-radius: 1em;
+   padding: 2em 2em 0;
    gap: 1em;
-   color: #fff;
+   color: #000;
    box-shadow: 1px -1px 29px 2px rgba(0,0,0,0.25);
 }
 
 .grid-item img {
    width: 75px;
    border-radius: 50%;
-   border: 5px solid #313131;
+   border: 3px solid #303030;
 }
 
 .grid-item-heading {
@@ -46,23 +45,28 @@
 }
 
 .grid-item:nth-child(1) {
-   background: #420000;
+   border-top: 2px solid #e11515;
+   border-bottom: 2px solid #e11515;
 }
 
 .grid-item:nth-child(2) {
-   background: #2b383c;
+   border-top: 2px solid #2f56cb;
+   border-bottom: 2px solid #2f56cb;
 }
 
 .grid-item:nth-child(3) {
-   background: #012503;
+   border-top: 2px solid #41e741;
+   border-bottom: 2px solid #41e741;
 }
 
 .grid-item:nth-child(4) {
-   background: #131313;
+   border-top: 2px solid #474545;
+   border-bottom: 2px solid #474545;
 }
 
 .grid-item:nth-child(5) {
-   background: #1d002b;
+   border-top: 2px solid #9514b8;
+   border-bottom: 2px solid #9514b8;
 }
 
 .cta-learnmore {
@@ -86,7 +90,7 @@
    }
 
    .grid-item h2 {
-      font-size: 1.9rem;
+      font-size: 1.75rem;
    }
    
    .grid-item p {

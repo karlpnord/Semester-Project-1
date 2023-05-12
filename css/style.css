@@ -352,4 +352,8 @@ textarea[type="text"] {
    nav {
       gap: 4em;
    }
+
+   nav a {
+      font-size: 1.75rem;
+   }
 }
