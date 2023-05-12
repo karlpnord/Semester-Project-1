@@ -55,7 +55,7 @@
 @media (min-width: 950px) {
    .grid-container {
       max-width: 1600px;
-      grid-template-columns: 1fr auto auto;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto auto auto;
    }
 
@@ -82,10 +82,16 @@
    .personal-section {
       padding: 1em 0;
    }
-}
 
-@media (min-width: 1100px) {
-   .grid-container {
-      grid-template-columns: 1fr 1fr 1fr;
+   .form-dinfo input {
+      width: 65%;
+   }
+
+   .form-pinfo input {
+      width: 75%;
+   }
+
+   .form-minfo textarea {
+      width: 83%;
    }
 }

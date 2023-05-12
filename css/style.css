@@ -241,6 +241,7 @@ footer {
 .form-style textarea {
    border: none;
    border-bottom: 1px solid #c4c4c4;
+   width: 100%;
 }
 
 .form-style textarea {
@@ -255,15 +256,6 @@ footer {
 
 .form-style label {
    font-weight: 600;
-}
-
-.reg-halfsize__item {
-   width: 45%;
-   gap: 2em;
-}
-
-.reg-halfsize {
-   justify-content: space-between;
 }
 
 .form-style input::placeholder {

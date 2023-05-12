@@ -1,12 +1,13 @@
 .container {
+   display: grid;
    gap: 4em;
-   width: 100%;
+   width: 90%;
+   max-width: 31.25em;
    margin: 0 auto 6em;
 }
 
 .reg-item {
-   width: 90%;
-   max-width: 31.25em;
+   width: 100%;
    margin: 0 auto;
 }
 
@@ -15,14 +16,8 @@
    color: #fff;
    gap: 1.5em;
    padding: 2em;
-   width: 90%;
-   margin: 0 auto;
    justify-content: center;
    border-radius: 1rem;
-}
-
-.registration > * {
-   max-width: 31.25em;
 }
 
 .registration h1 {
@@ -52,6 +47,15 @@
    gap: 2em;
 }
 
+.reg-halfsize__item {
+   width: 45%;
+   gap: 2em;
+}
+
+.reg-halfsize {
+   justify-content: space-between;
+}
+
 h2 {
    font-size: 1.25rem;
 }
@@ -63,17 +67,14 @@ h2 {
 /* Responsive */
 @media (min-width: 950px) {
    .container {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr auto;
       max-width: 1600px;
-      width: 90%;
-      column-gap: 1em;
+      gap: 2em;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
    }
 
    .registration {
       grid-row: span 2;
-      min-height: 65vh;
       justify-content: flex-start;
       border-radius: 0.75rem;
    }
@@ -89,9 +90,5 @@ h2 {
 
    .reg-item {
       padding: 2em;
-   }
-
-   .test {
-      flex-wrap: wrap;
    }
 }
