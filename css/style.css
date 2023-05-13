@@ -142,6 +142,9 @@ header {
    gap: 0.4em;
    font-family: var(--ff-logo);
    letter-spacing: 1px;
+   text-decoration: none;
+   color: #000;
+   font-size: 0.8rem;
 }
 
 nav,
@@ -219,6 +222,10 @@ footer {
    font-size: 3rem;
 }
 
+.logo-footer {
+   color: #fff;
+}
+
 /* Footer typography */
 .footer-logo-icons p {
    font-size: 1.5em;
@@ -278,6 +285,10 @@ textarea[type="text"] {
 @media (min-width: 950px) {
    header {
       max-width: 1600px;
+   }
+
+   .logo {
+      font-size: 1rem;
    }
    
    header label {
