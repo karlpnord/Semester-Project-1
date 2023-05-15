@@ -33,8 +33,8 @@
 
 /* Layout styling */
 main {
-   gap: 7.5em;
-   margin: 4em 0 10em 0;
+   gap: 5em;
+   margin: 2em 0 6em ;
 }
 
 .container {
@@ -105,6 +105,10 @@ main {
    /* General responsiveness and some typography*/
    main p {
       font-size: 18px;
+   }
+
+   main {
+      gap: 8em;
    }
 
    .container h2 {

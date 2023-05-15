@@ -59,6 +59,7 @@ html {
    font-size: 1.75rem;
    color: #fff;
    text-decoration: none;
+   transition: background ease 200ms;
 }
 
 .cta-purple {
@@ -67,6 +68,14 @@ html {
 
 .cta-blue {
    background: var(--clr-cta-blue);
+}
+
+.cta-purple:hover {
+   background: #d960ec;
+}
+
+.cta-blue:hover {
+   background: #608af5;
 }
 
 .form-button {
@@ -310,12 +319,22 @@ textarea[type="text"] {
       display: inline-block;
    }
 
+   nav a:hover {
+      text-decoration: underline;
+   }
+
    .highlighted {
       background: var(--clr-cta-blue);
       padding: 0.25em 0.75em;
       border-radius: 0.25rem;
       color: #fff;
       margin: auto;
+      transition: background ease 200ms;
+   }
+
+   .highlighted:hover {
+      background: #608af5;
+      text-decoration: none;
    }
 
    .flex-columns-to-rows {
