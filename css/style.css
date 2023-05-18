@@ -149,11 +149,15 @@ header {
 .logo {
    align-items: center;
    gap: 0.4em;
+   text-decoration: none;
+}
+
+.logo p {
    font-family: var(--ff-logo);
    letter-spacing: 1px;
-   text-decoration: none;
+   font-weight: 600;
    color: #000;
-   font-size: 0.8rem;
+   font-size: 1.25rem;
 }
 
 nav,
@@ -231,12 +235,12 @@ footer {
    font-size: 3rem;
 }
 
-.logo-footer {
+.logo-footer p {
    color: #fff;
 }
 
 /* Footer typography */
-.footer-logo-icons p {
+.footer-logo-icons .copyright {
    font-size: 1.5em;
    font-family: var(--ff-sct-titles);
 }
@@ -297,8 +301,8 @@ textarea[type="text"] {
       max-width: 1600px;
    }
 
-   .logo {
-      font-size: 1rem;
+   .logo p {
+      font-size: 1.5rem;
    }
    
    header label {

@@ -15,7 +15,7 @@
    <header class="flex-row-static" id="header">
       <a href="index.html" class="logo flex-row-static">
          <img src="/images/logo.png" alt="The community science museum logo">
-         <h2>Community<span class="line-break">Science Museum</span></h2>
+         <p>Community<span class="line-break">Science Museum</span></p>
       </a>
       <input type="checkbox" id="menu-checkbox">
       <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
@@ -31,7 +31,7 @@
 
    <main class="flex-column-static">
 
-      <section class="hero container flex-columns-to-rows">
+      <div class="hero container flex-columns-to-rows">
          <div class="section-images">
             <img src="/images/hero.jpg" alt="illustration of newton's cradle, that demonstrates consevation of momentum and energy">
          </div>
@@ -43,9 +43,9 @@
                <i class="fa-solid fa-arrow-down"></i>
             </a>
          </article>
-      </section>
+      </div>
 
-      <section class="container ysc-club flex-columns-to-rows">
+      <div class="container ysc-club flex-columns-to-rows">
          <div class="section-images flex-row-static">
             <img src="/images/young-stars-club.jpg" alt="a child painting with a vr headset at the young stars club">
          </div>
@@ -54,7 +54,7 @@
             <p>We have the Young Stars Club which meets once a week on a Saturday between 10:00 and 13:00 where you'll get to explore and experiment with our team of experts. To find out more about the young stars club and how you can join, send us a message.</p>
             <a href="/html/ysc-club.html" class="cta main-cta cta-purple">join now</a>
          </article>
-      </section>
+      </div>
 
       <section class="container exhibitions flex-columns-to-rows">
          <h2>On Display</h2>
@@ -110,7 +110,7 @@
 
    <footer class="flex-column-static" id="opening-hours">
 
-      <section class="footer-item footer-content flex-columns-to-rows">
+      <div class="footer-item footer-content flex-columns-to-rows">
          <article class="footer-content__article flex-column-static footer-content__item">
             <h2>We look forward to seeing you at the new community science museum!</h2>
             <p><span class="text-purple bold-text">The entrance hall is free for all.</span> There are guided tours of the museum that leave every hour. These tours are <span class="bold-text">70 NOK</span> per person.</p>
@@ -142,21 +142,21 @@
          </div>
          <form class="footer-content__form flex-column-static footer-content__item">
             <label for="name">Enter your name</label>
-            <input type="name" id="name">
+            <input type="text" id="name">
             <label for="message">Enter a valid email address</label>
             <input type="email" id="email">
             <label for="message">Enter your message</label>
             <textarea id="message"></textarea>
             <a href="index.html" class="cta form-button">Submit</a>
          </form>
-      </section>
+      </div>
 
       <div class="footer-item footer-logo-icons flex-columns-to-rows">
          <div class="logo logo-footer flex-row-static">
             <img src="/images/logo.png" alt="The community science museum logo">
-            <h2>Community<span class="line-break">Science Museum</span></h2>
+            <p>Community<span class="line-break">Science Museum</span></p>
          </div>
-         <p>&copy;Copyright 2023</p>
+         <p class="copyright">&copy;Copyright 2023</p>
          <div class="social-icons flex-row-static">
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
