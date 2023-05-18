@@ -55,7 +55,7 @@
 @media (min-width: 950px) {
    .grid-container {
       max-width: 1600px;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1.25fr 1fr 1fr;
       grid-template-rows: auto auto auto;
    }
 
@@ -81,17 +81,5 @@
    .date-section,
    .personal-section {
       padding: 1em 0;
-   }
-
-   .form-dinfo input {
-      width: 65%;
-   }
-
-   .form-pinfo input {
-      width: 75%;
-   }
-
-   .form-minfo textarea {
-      width: 83%;
    }
 }

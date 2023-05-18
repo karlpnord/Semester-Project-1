@@ -238,6 +238,7 @@ footer {
 /* Footer typography */
 .footer-logo-icons p {
    font-size: 1.5em;
+   font-family: var(--ff-sct-titles);
 }
 
 .footer-content__article h2 {
