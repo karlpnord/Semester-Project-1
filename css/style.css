@@ -103,6 +103,14 @@ html {
    border-bottom: 1px solid var(--clr-cta-blue);
 }
 
+.on-site-nav-footer {
+   color: #fff;
+}
+
+.on-site-nav-footer:hover {
+   border-bottom: 1px solid #fff;
+}
+
 /* Forms */
 .form-button,
 input,
