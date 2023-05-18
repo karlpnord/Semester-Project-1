@@ -22,10 +22,9 @@
    font-size: 2rem;
 }
 
-.container h2 {
-   font-size: 1.75rem;
-}
-
+.ysc-club h2,
+.exhibitions h2,
+.events h2,
 .events h3,
 .exhibitions h3 {
    font-size: 1.75rem;
@@ -111,7 +110,9 @@ main {
       gap: 8em;
    }
 
-   .container h2 {
+   .ysc-club h2,
+   .exhibitions h2,
+   .events h2 {
       font-size: 2.5rem;
    }
 

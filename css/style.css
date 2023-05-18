@@ -36,10 +36,6 @@ html {
    flex-direction: column;
 }
 
-.text-purple {
-   color: var(--clr-cta-purple);
-}
-
 .bold-text {
    font-weight: 600;
 }
@@ -99,6 +95,10 @@ html {
    font-weight: bold;
 }
 
+.on-site-nav h2 {
+   font-size: 1.25rem;
+}
+
 .on-site-nav:hover {
    border-bottom: 1px solid var(--clr-cta-blue);
 }
@@ -150,14 +150,11 @@ header {
    align-items: center;
    gap: 0.4em;
    text-decoration: none;
-}
-
-.logo p {
    font-family: var(--ff-logo);
    letter-spacing: 1px;
    font-weight: 600;
    color: #000;
-   font-size: 1.25rem;
+   font-size: 0.8rem;
 }
 
 nav,
@@ -300,8 +297,8 @@ textarea[type="text"] {
       max-width: 1600px;
    }
 
-   .logo p {
-      font-size: 1.5rem;
+   .logo {
+      font-size: 1rem;
    }
    
    header label {
@@ -325,6 +322,14 @@ textarea[type="text"] {
 
    nav a:hover {
       text-decoration: underline;
+   }
+
+   .on-site-nav h2 {
+      font-size: 1.75rem;
+   }
+
+   .on-site-nav i {
+      font-size: 1.5rem;
    }
 
    .highlighted {
