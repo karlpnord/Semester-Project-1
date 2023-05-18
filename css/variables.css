@@ -19,11 +19,11 @@
 }
 
 :root {
-   --ff-body: 'Inter';
-   --ff-sct-titles: 'SecularOne';
-   --ff-logo: 'BebasNeue';
-   --ff-cta: 'BebasNeue';
-   --ff-ondisplay-undertitles: 'ArchivoBlack';
+   --ff-body: 'Inter', sans-serif;
+   --ff-sct-titles: 'SecularOne', sans-serif;
+   --ff-logo: 'BebasNeue', sans-serif;
+   --ff-cta: 'BebasNeue', sans-serif;
+   --ff-ondisplay-undertitles: 'ArchivoBlack', sans-serif;
 
    --clr-cta-purple: #CB3CE2;
    --clr-cta-blue: #3D72FA;
