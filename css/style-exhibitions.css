@@ -45,33 +45,59 @@
 }
 
 .grid-item:nth-child(1) {
-   border-top: 2px solid #e11515;
-   border-bottom: 2px solid #e11515;
+   border-top: 2px solid var(--clr-exb-red);
+   border-bottom: 2px solid var(--clr-exb-red);
 }
 
 .grid-item:nth-child(2) {
-   border-top: 2px solid #2f56cb;
-   border-bottom: 2px solid #2f56cb;
+   border-top: 2px solid var(--clr-exb-blue);
+   border-bottom: 2px solid var(--clr-exb-blue);
 }
 
 .grid-item:nth-child(3) {
-   border-top: 2px solid #41e741;
-   border-bottom: 2px solid #41e741;
+   border-top: 2px solid var(--clr-exb-green);
+   border-bottom: 2px solid var(--clr-exb-green);
 }
 
 .grid-item:nth-child(4) {
-   border-top: 2px solid #474545;
-   border-bottom: 2px solid #474545;
+   border-top: 2px solid var(--clr-exb-gray);
+   border-bottom: 2px solid var(--clr-exb-gray);
 }
 
 .grid-item:nth-child(5) {
-   border-top: 2px solid #9514b8;
-   border-bottom: 2px solid #9514b8;
+   border-top: 2px solid var(--clr-exb-purple);
+   border-bottom: 2px solid var(--clr-exb-purple);
 }
 
 .cta-learnmore {
    font-weight: bold;
    color: var(--clr-cta-blue);
+   font-family: var(--ff-sct-titles);
+   text-decoration: none;
+}
+
+.cta-learnmore-red {
+   color: var(--clr-exb-red);
+}
+
+.cta-learnmore-blue {
+   color: var(--clr-exb-blue);
+}
+
+.cta-learnmore-green {
+   color: var(--clr-exb-green);
+}
+
+.cta-learnmore-gray {
+   color: var(--clr-exb-gray);
+}
+
+.cta-learnmore-purple {
+   color: var(--clr-exb-purple);
+}
+
+.cta-learnmore:hover {
+   text-decoration: underline;
 }
 
 /* Responsive */
@@ -95,30 +121,15 @@
    
    .grid-item p {
       font-size: 18px;
+      line-height: 1.4;
    }
 
    .cta-learnmore {
       font-size: 1.25rem;
    }
-}
 
-@media (min-width: 1250px) {
-   .grid-container {
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: auto auto;
-   }
-
-   .grid-item:nth-child(1) {
-      grid-row: 1 / span 2;
-      grid-column: 4 / 5;
-   }
-
-   .grid-item:nth-child(2) {
-      grid-column: span 2;
-   }
-   
-   .grid-item:nth-child(3) {
-      grid-column: 2 / 4;
-      grid-row: 2 / 3;
+   .grid-item {
+      padding: 2em;
+      gap: 2em;
    }
 }
