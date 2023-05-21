@@ -292,7 +292,7 @@ footer {
 input[type="email"],
 input[type="tel"],
 input[type="text"],
-textarea[type="text"] {
+textarea {
    font-size: 16px;
    padding-left: 2px;
    font-family: var(--ff-body);
