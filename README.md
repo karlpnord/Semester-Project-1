@@ -6,17 +6,14 @@ Semester Project 1, purpose was to make a website for a community science museum
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+The main purpose of the website was to attract young adults to the community science museum.
+Some of the key features on the website to attract the young adults were:
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+- Young social club
+- Tour guide booking
+- List of events and exhibitons
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - HTML
 - CSS
@@ -24,8 +21,6 @@ You can list a the tech stack that you've used over here
 ## Getting Started
 
 ### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
 1. Clone the repo:
 
