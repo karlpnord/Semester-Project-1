@@ -1,4 +1,4 @@
-# Semester-Project-1
+# Community Science Museum
 
 ![image](https://i.postimg.cc/MKXhmRjx/sciencemuseum.jpg)
 
