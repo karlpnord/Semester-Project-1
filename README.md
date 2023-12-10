@@ -2,7 +2,7 @@
 
 ![image](https://i.postimg.cc/MKXhmRjx/sciencemuseum.jpg)
 
-Semester Project 1, purpose was to make a website for a community science museum.
+Semester Project 1, task was to make a website for a community science museum.
 
 ## Description
 
