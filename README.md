@@ -2,7 +2,7 @@
 
 ![image](https://i.postimg.cc/MKXhmRjx/sciencemuseum.jpg)
 
-A simple overview of the use/purpose of the project.
+Semester Project 1, purpose was to make a website for a community science museum.
 
 ## Description
 
@@ -30,5 +30,5 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:karlpnord/Semester-Project-1.git
 ```
