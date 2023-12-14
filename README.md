@@ -27,3 +27,6 @@ Some of the key features on the website to attract the young adults were:
 ```bash
 git clone git@github.com:karlpnord/Semester-Project-1.git
 ```
+2. Viewing the site:
+  - Live viewing with Visual Studio Code
+  - Publish to f.ex. GitHub Pages or Netlify
